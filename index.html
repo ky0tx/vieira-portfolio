@@ -1471,8 +1471,7 @@
           el.textContent = en ? (DICT[pt.trim()] || pt) : pt;
         });
         document.documentElement.lang = en ? 'en' : 'pt-BR';
-        document.title = en ? 'Vieira — Portfolio' : 'Vieira — Portfólio';
-        langBtns.forEach((b) => b.classList.toggle('active', b.dataset.lang === lang));
+        document.title = en ? 'Jota — Visual Identity & Branding | Designer' : 'Jota — Identidade Visual e Branding | Designer em Cabo Frio'; langBtns.forEach((b) => b.classList.toggle('active', b.dataset.lang === lang));
         try { localStorage.setItem('lp_lang', lang); } catch (e) { }
       }
 
